@@ -1,0 +1,23 @@
+Comandos GIT
+
+Copiar: control + insert
+Colar:shift + insert
+Limpar tela: control + l
+
+
+git status = mostra o status dos arquivos, para verificarmos a necessidade de atualizar o commit
+
+* Se houver arquivo modificado, ficará em vermelho (untracked files)
+
+git add . = envia todos os arqivos para o controle de versão
+git add -A = idem o anterior (o A tem que ser maíusculo)
+
+* O arquivo novo ficará em verde (changes to be commited)
+
+** Até aqui só foi salvo no controle de vesões local. Falta enviar a nova versão para o GITHUB
+
+git commit -m "mensagem" = inclui uma menagem sobre o que é traz essa vesão do arquivo.
+
+** Agora precisa enviar
+
+git push origin main = salva a versão atualizada, que está na máquina, no GitHub
